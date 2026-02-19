@@ -7,6 +7,7 @@ body{
   line-height: 1.5;
 }
 
+/* Main content box */
 .box{
   max-width: 900px;
   margin: 0 auto;
@@ -15,13 +16,16 @@ body{
   border-radius: 12px;
   overflow: hidden;
 
+  /* Gradient border */
   border: 2px solid;
   border-image: linear-gradient(to bottom, orange, purple) 1;
 
+  /* Glow effect */
   box-shadow: 0 0 15px rgba(255,165,0,0.6),
               0 0 25px rgba(128,0,128,0.5);
 }
 
+/* Links */
 a{
   color: #ffd36a;
 }
@@ -29,10 +33,12 @@ a:hover{
   text-decoration: underline;
 }
 
+/* Lists */
 ul{
   list-style-type: square;
 }
 
+/* Small profile photo */
 .profile-pic{
   display: block;
   margin: 0 auto 14px;
@@ -41,6 +47,7 @@ ul{
   border-radius: 12px;
 }
 
+/* Large photo */
 .photo-big{
   display: block;
   margin: 10px auto 0;
@@ -49,7 +56,26 @@ ul{
   border-radius: 12px;
 }
 
+/* Clickable name */
 .click-name{
   cursor: pointer;
   user-select: none;
+}
+
+/* Photography gallery button */
+.photo-button{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: linear-gradient(to right, orange, purple);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255,165,0,0.5);
+  transition: transform 0.2s ease;
+}
+
+.photo-button:hover{
+  transform: scale(1.05);
 }
