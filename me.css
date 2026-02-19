@@ -1,10 +1,10 @@
 body{
   margin: 0;
   font-family: Arial, sans-serif;
-  /* orange -> black -> purple */
   background: linear-gradient(to bottom, orange, black, purple);
   color: white;
   padding: 20px;
+  line-height: 1.5;
 }
 
 .box{
@@ -13,12 +13,11 @@ body{
   background: rgba(0,0,0,0.6);
   padding: 18px;
   border-radius: 12px;
+  overflow: hidden;
 
-  /* Gradient border (orange → purple) */
   border: 2px solid;
   border-image: linear-gradient(to bottom, orange, purple) 1;
 
-  /* Soft glow */
   box-shadow: 0 0 15px rgba(255,165,0,0.6),
               0 0 25px rgba(128,0,128,0.5);
 }
@@ -26,15 +25,18 @@ body{
 a{
   color: #ffd36a;
 }
+a:hover{
+  text-decoration: underline;
+}
 
 ul{
-  list-style-type: square; /* your requirement */
+  list-style-type: square;
 }
 
 .profile-pic{
   display: block;
   margin: 0 auto 14px;
-  width: 200px;     /* simple and consistent */
+  width: 200px;
   height: auto;
   border-radius: 12px;
 }
