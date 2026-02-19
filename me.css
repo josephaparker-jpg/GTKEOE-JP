@@ -13,6 +13,14 @@ body{
   background: rgba(0,0,0,0.6);
   padding: 18px;
   border-radius: 12px;
+
+  /* Gradient border (orange → purple) */
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, orange, purple) 1;
+
+  /* Soft glow */
+  box-shadow: 0 0 15px rgba(255,165,0,0.6),
+              0 0 25px rgba(128,0,128,0.5);
 }
 
 a{
