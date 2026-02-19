@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* orange -> black -> purple */
+  background: linear-gradient(to bottom, orange, black, purple);
+  color: white;
+  padding: 20px;
+}
+
+.box{
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.6);
+  padding: 18px;
+  border-radius: 12px;
+}
+
+a{
+  color: #ffd36a;
+}
+
+ul{
+  list-style-type: square; /* your requirement */
+}
+
+.profile-pic{
+  display: block;
+  margin: 0 auto 14px;
+  width: 200px;     /* simple and consistent */
+  height: auto;
+  border-radius: 12px;
+}
+
+.photo-big{
+  display: block;
+  margin: 10px auto 0;
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.click-name{
+  cursor: pointer;
+  user-select: none;
+}
