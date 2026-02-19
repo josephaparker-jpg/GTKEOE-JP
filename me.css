@@ -67,7 +67,7 @@ ul{
   display: inline-block;
   margin-top: 10px;
   padding: 10px 18px;
-  background: linear-gradient(to right, orange, purple);
+  background: linear-gradient(135deg, #ff7a00, #000000, #6a00ff);
   color: white;
   text-decoration: none;
   border-radius: 8px;
